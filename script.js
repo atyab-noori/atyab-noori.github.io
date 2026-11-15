@@ -17,10 +17,12 @@ if (hamburgerBtn && navMenu) {
 }
 
 // 2. Modal Popup Functions (Achievements & Training)
+// 2. Modal Popup Functions (Achievements & Training)
 function openModal(modalId) {
   const modal = document.getElementById(modalId);
   if (modal) {
     modal.style.display = "flex";
+    document.body.style.overflow = "hidden";
   }
 }
 
@@ -28,6 +30,7 @@ function closeModal(modalId) {
   const modal = document.getElementById(modalId);
   if (modal) {
     modal.style.display = "none";
+    document.body.style.overflow = "";
   }
 }
 
@@ -35,6 +38,7 @@ function closeModal(modalId) {
 window.addEventListener("click", (event) => {
   if (event.target.classList.contains("modal")) {
     event.target.style.display = "none";
+    document.body.style.overflow = "";
   }
 });
 
@@ -44,6 +48,7 @@ window.addEventListener("keydown", (event) => {
     document.querySelectorAll(".modal").forEach((modal) => {
       modal.style.display = "none";
     });
+    document.body.style.overflow = "";
   }
 });
 
