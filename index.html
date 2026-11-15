@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Atyab Noori | Frontend & Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navigation Header -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="brand">Atyab Noori</a>
+
+      <button class="hamburger" id="hamburger-btn" aria-label="Toggle Navigation">
+        ☰
+      </button>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <img src="assets/profile.jpg" alt="Muhammad Atyab Noori" class="profile-img">
+        <h1>Muhammad Atyab Noori</h1>
+        <p class="subtitle">BSCS Student | Frontend Developer &amp; Aspiring Cybersecurity Specialist</p>
+        <p class="intro">
+          I build clean, responsive web interfaces and practical software tools while applying secure coding principles
+          and foundational cybersecurity practices.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">View CV</a>
+          <a href="assets/resume.pdf" download="Muhammad_Atyab_Noori_Resume.pdf" class="btn btn-secondary">Download
+            CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <article class="project-card">
+            <img src="assets/projects/coder-visuals.jfif" alt="Coder Visuals Wallpaper Gallery Preview"
+              class="project-img">
+            <div class="project-info">
+              <h3>Coder Visuals Wallpaper Gallery</h3>
+              <p>
+                A dark-themed developer wallpaper gallery built with semantic HTML5 and responsive CSS Grid layouts.
+                Includes a custom brand logo and a dedicated contact section.
+              </p>
+              <div class="tech-tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Responsive Design</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/atyab-noori" target="_blank" rel="noopener">GitHub Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <img src="assets/projects/transcript.png" alt="Academic Transcript Generator Preview" class="project-img">
+            <div class="project-info">
+              <h3>Academic Transcript Generator</h3>
+              <p>
+                An automated single-page PDF transcript generator built in Python for the BS Computer Science curriculum
+                at the National University of Pakistan (NUP).
+              </p>
+              <div class="tech-tags">
+                <span>Python</span>
+                <span>WeasyPrint</span>
+                <span>HTML/CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/atyab-noori" target="_blank" rel="noopener">GitHub Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <img src="assets/projects/images.png" alt="C++ OOP Management Systems Preview" class="project-img">
+            <div class="project-info">
+              <h3>C++ OOP Management Systems</h3>
+              <p>
+                Console-based Bank Account, Library, and Family Tree management systems engineered using classes,
+                inheritance, encapsulation, and persistent file handling.
+              </p>
+              <div class="tech-tags">
+                <span>C++</span>
+                <span>OOP</span>
+                <span>File Handling</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/atyab-noori" target="_blank" rel="noopener">GitHub Repo</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+
+          <div class="skill-card">
+            <h3>Frontend &amp; Web</h3>
+            <ul>
+              <li>HTML5 &amp; Semantic Markup</li>
+              <li>CSS3 (Flexbox, Grid, Responsive UI)</li>
+              <li>JavaScript (DOM Manipulation)</li>
+              <li>Flask &amp; FastAPI Integration</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Programming &amp; Core CS</h3>
+            <ul>
+              <li>C++ (OOP &amp; Data Structures)</li>
+              <li>Python</li>
+              <li>Digital Logic Design</li>
+              <li>File Handling &amp; Problem Solving</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Cybersecurity &amp; Tools</h3>
+            <ul>
+              <li>Web Security &amp; Secure Coding Basics</li>
+              <li>Network &amp; Linux CLI Fundamentals</li>
+              <li>Git &amp; GitHub</li>
+              <li>Visual Studio Code &amp; Figma</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Education Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About &amp; Education</h2>
+        <p class="about-bio">
+          I am a BS Computer Science undergraduate at F.G. Liaquat Ali Degree College (affiliated with National
+          University of Pakistan) in Rawalpindi, with 2 years of teaching experience in computer fundamentals. My goal
+          is to combine modern frontend engineering with practical cybersecurity knowledge to build reliable, secure web
+          applications.
+        </p>
+
+        <div class="education-list">
+          <div class="edu-item">
+            <h3>Bachelor of Science in Computer Science (BSCS)</h3>
+            <p>F.G. Liaquat Ali Degree College, Peshawar Road, Rawalpindi (NUP) | <strong>2025 – 2029</strong></p>
+          </div>
+          <div class="edu-item">
+            <h3>Intermediate — F.Sc. Pre-Engineering</h3>
+            <p>F.G. Sir Syed College, The Mall, Rawalpindi Cantt | <strong>2025</strong> (736 Marks)</p>
+          </div>
+          <div class="edu-item">
+            <h3>Matriculation — Computer Science</h3>
+            <p>F.G. Public School (Boys), R.A. Bazaar, Rawalpindi Cantt | <strong>2023</strong> (886 Marks)</p>
+          </div>
+        </div>
+
+        <div class="about-actions">
+          <button type="button" class="btn btn-secondary" onclick="openModal('achievements-modal')">
+            View Achievements &amp; Training
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-wrapper">
+
+          <div class="contact-details">
+            <p><strong>Location:</strong> Rawalpindi, Pakistan</p>
+            <p><strong>Email:</strong> <a href="mailto:atiyabnoori56@gmail.com">atiyabnoori56@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+923284982828">+92 328 4982828</a></p>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/atyab-noori-8b9963403/" target="_blank" rel="noopener">LinkedIn</a>
+              <a href="https://github.com/atyab-noori" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+
+          <!-- Ready for Flask / FastAPI backend POST route -->
+          <form action="/contact" method="POST" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Achievements & Training Modal -->
+  <div id="achievements-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-content">
+      <button type="button" class="modal-close" onclick="closeModal('achievements-modal')"
+        aria-label="Close Modal">&times;</button>
+      <h3 id="modal-title">Certifications, Training &amp; Hackathons</h3>
+      <ul class="modal-list">
+        <li><strong>Generative AI Training</strong> — Pak Angels (2026)</li>
+        <li><strong>Generative AI Program</strong> — Bano Qabil, Rawalpindi (2026)</li>
+        <li><strong>IT Scholarship Training</strong> — Hunarmand Punjab (2026)</li>
+        <li><strong>Computer Science &amp; Python Coursework</strong> — DataCamp</li>
+        <li><strong>Hacktoberfest Hack Day Islamabad</strong> — NSTP, NUST (Oct 2026)</li>
+        <li><strong>Figma Make-a-Thon Sukkur 3.0</strong> — Friends of Figma Sukkur (Oct 2026)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 Muhammad Atyab Noori. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
